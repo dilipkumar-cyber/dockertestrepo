@@ -9,3 +9,7 @@ Route::get('/', function () {
 Route::get('/health', function () {
     return response()->json(['status' => 'OK']);
 });
+
+Route::get('/students', function () {
+    return \App\Models\Student::all();
+});
