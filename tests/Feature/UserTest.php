@@ -8,7 +8,7 @@ it('can create a user', function () {
         'email' => 'alice@example.com',
     ]);
 
-    // Use $this to access the method  hrr
+    // Use $this to access the method  hrrddfg
     $this->assertDatabaseHas('users', [
         'email' => 'alice@example.com',
     ]);
